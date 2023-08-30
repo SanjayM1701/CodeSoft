@@ -1,0 +1,36 @@
+* {
+    background-color: rgb(81, 89, 74);
+}
+
+.calculator {
+    margin: auto;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 15%;
+    zoom: 300%;
+}
+
+.displayScreen {
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+#btn {
+    background-color: darkcyan;
+}
+
+#btn:active {
+    background-color: rgba(72, 227, 227, 0.543);
+}
+
+input[type=button] {
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+}
+
+input:active[type=button] {
+    background-color: rgb(92, 91, 73);
+    box-shadow: 2px 2px 5px;
+}
